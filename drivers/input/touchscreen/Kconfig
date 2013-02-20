@@ -764,4 +764,10 @@ config  TOUCHSCREEN_COASIA
        tristate  "COASIA touchscreen driver"
        help
           COASIA touchscreen driver
+
+config  TOUCHSCREEN_GT811
+       tristate  "Goodix Touch gt811 touchscreen driver"
+       depends on I2C
+       help
+          GT811 touchscreen driver
 endif

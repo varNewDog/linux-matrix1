@@ -67,3 +67,5 @@ obj-$(CONFIG_TOUCHSCREEN_GT801NI)	+= goodix_hack.o
 obj-$(CONFIG_TOUCHSCREEN_ZT8031)         += zt8031.o
 obj-$(CONFIG_TOUCHSCREEN_COASIA)         += coasia_i2c.o
 obj-$(CONFIG_TOUCHSCREEN_SUN4I_TS)         += sun4i-ts.o
+obj-$(CONFIG_TOUCHSCREEN_GT811)         += gt811_ts.o
+
